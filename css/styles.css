@@ -211,16 +211,18 @@ address ul li + li{
 }
 .team-user {
   text-align: center;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-list-item {
   background-color: #FFFFFF;
+  border-radius: 0px 0px 4px 4px; 
 }
 /* section portfolio */
 .portfolio ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px; 
 }
 .portfolio-text-border{
   text-align: left;
@@ -234,15 +236,16 @@ address ul li + li{
 footer {
   color: #F4F4FD;
   background-color: #2E2F42;
-  padding: 100px;
+  padding: 100px 0;
 }
 footer .logo {
   color: #4D5AE5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 footer .logo span {
   color: #F4F4FD;
 }
 .footer-paragraph {
   width: 264px;
-  margin-top: 16px;
 }
