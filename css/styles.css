@@ -152,11 +152,8 @@ address ul li + li{
 }
 .hero-title {
   color: #FFFFFF;
-}
-
-.hero .container {
   max-width: 496px;
-  padding: 0;
+  margin: 0 auto;
 }
 
 .hero-btn {
@@ -180,11 +177,27 @@ address ul li + li{
 }
 /* section strategy */
 
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} 
+
 .strategy ul {
   display: flex;
   gap: 24px;
 }
-
+.strategy-list-strategy {
+  width: calc((100% - 72px) / 4); 
+}
 /* section team */
 .team ul {
   display: flex;
