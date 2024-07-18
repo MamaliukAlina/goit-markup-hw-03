@@ -155,20 +155,24 @@ address ul li + li{
 }
 
 .hero .container {
-  width: 526px;
-  text-align: center;
+  max-width: 496px;
+  padding: 0;
 }
 
 .hero-btn {
+  display: block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
   background: #4D5AE5;
   cursor: pointer;
-  margin-top: 48px;
+  margin: 48px auto 0;
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .hero-btn:hover,
 .hero-btn:focus {
