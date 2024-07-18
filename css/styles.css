@@ -58,8 +58,8 @@ ul {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
-}
+  padding: 0 15px;
+} 
 img {
   display: block;
 }
@@ -114,9 +114,7 @@ header .container .logo {
 .nav {
   align-items: center;
 }
-.nav-menu-item {
-  padding: 24px 0;
-}
+
 .nav-menu-address {
   margin-right: 40px;
 }
@@ -126,6 +124,7 @@ header .container .logo {
 header nav a {
   font-weight: 500;
   color: #2E2F42;
+  padding: 24px 0;
 }
 header nav a:hover,
 header nav a:focus {
